@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/ip6tables:system/bin/ip6tables \
   vendor/htc/vigor/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/vigor/proprietary/bin/netmgrd:system/bin/netmgrd \
+  vendor/htc/vigor/proprietary/bin/rild:system/bin/rild \
   vendor/htc/vigor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/vigor/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/vigor/proprietary/bin/thermald:system/bin/thermald \
@@ -108,6 +109,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/vigor/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:system/lib/libv8.so \
+  vendor/htc/vigor/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+  vendor/htc/vigor/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+  vendor/htc/vigor/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/hw/sensors.vigor.so:system/lib/hw/sensors.vigor.so \
-  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so
   vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so
