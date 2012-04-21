@@ -18,6 +18,8 @@
 PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libril.so:obj/lib/libril.so \
+  
+  
 
 PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/charging:system/bin/charging \
@@ -33,10 +35,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/vigor/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/vigor/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+  vendor/htc/vigor/proprietary/bin/vold:system/bin/vold \
   vendor/htc/vigor/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/vigor/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/vigor/proprietary/etc/thermald.conf:system/etc/thermald.conf \
   vendor/htc/vigor/proprietary/etc/vpimg:system/etc/vpimg \
+  vendor/htc/vigor/proprietary/etc/vold.fstab:system/etc/vold.fstab \
   vendor/htc/vigor/proprietary/lib/libchromatix_imx105_default_video.so:system/lib/libchromatix_imx105_default_video.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_imx105_zsl.so:system/lib/libchromatix_imx105_zsl.so \
@@ -85,7 +89,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-  vendor/htc/vigor/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/vigor/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/vigor/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/vigor/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -97,7 +100,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/vigor/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/vigor/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/vigor/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/vigor/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/vigor/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
@@ -112,6 +114,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/vigor/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/vigor/proprietary/lib/libril.so:system/lib/libril.so \
+  vendor/htc/vigor/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+  vendor/htc/vigor/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+  vendor/htc/vigor/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+  vendor/htc/vigor/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+  vendor/htc/vigor/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/htc/vigor/proprietary/lib/hw/sensors.vigor.so:system/lib/hw/sensors.vigor.so \
-  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so
-  vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so
+  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+  vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
+  vendor/htc/vigor/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
+  vendor/htc/vigor/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+  vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/vigor/proprietary/lib/libmllite.so:system/lib/libmllite.so
