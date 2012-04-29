@@ -16,4 +16,4 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/htc/vigor/vigor-vendor-blobs.mk)
+$(call inherit-product, vendor/htc/android_device_htc_vigor/vigor-vendor-blobs.mk)
